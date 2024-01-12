@@ -1,0 +1,156 @@
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.main-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstPage {
+  width: 600px;
+  height: 782px;
+  background-image: url(/img/bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstPage-content {
+  width: 285px; 
+}
+
+.firstPage-content-heading {
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.btn {
+  background-color: #1E90FF;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.firstPage-content-btn {
+  width: 164px;
+  height: 48px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.firstPage-content-btn::before {
+  width: 20px;
+  height: 19px;
+  content: "";
+  background-image: url(/img/Vector.png);
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+.btn:hover {
+  background-color: rgba(30, 144, 255, 0.80);
+}
+
+.btn:active {
+  background-color: rgba(30, 144, 255, 0.6  0);
+}
+
+
+/* SecondPage */
+.secondPage {
+  width: 600px;
+  height: 782px;
+  background-color: #FEFEFE;
+  padding: 54px;
+}
+
+.secondPage-heading {
+  color: #222;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.secondPage-divider {
+  background-color: #999999;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.topVideos {
+  width: 492px;
+}
+
+.topVideos-item {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.topVideos-item-img {
+  width: 160px;
+  height: 90px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.topVideos-item-texts {
+  width: 307px;
+  padding: 16px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-video {
+  color: #222;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.about-video {
+  width: 186px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-video-item {
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-end {
+  width: 492px;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700  ;
+}
